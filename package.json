@@ -3,13 +3,70 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "electron/main.js",
+  "description": "AI-powered gesture recognition gallery",
+  "author": "suimi8",
   "scripts": {
     "gen-manifest": "node scripts/generate-pic-manifest.js",
     "dev": "node scripts/generate-pic-manifest.js && vite",
     "build": "node scripts/generate-pic-manifest.js && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:dev": "cross-env NODE_ENV=development electron .",
+    "electron:build": "npm run build && electron-builder"
+  },
+  "build": {
+    "appId": "com.suimi8.gesturegallery",
+    "productName": "GestureGallery",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Graphics"
+    },
+    "mac": {
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "x64",
+            "arm64"
+          ]
+        }
+      ]
+    }
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
+    "electron": "^30.0.0",
+    "electron-builder": "^26.0.12",
     "vite": "^5.0.0"
   },
   "dependencies": {

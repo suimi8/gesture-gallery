@@ -130,6 +130,28 @@ npm run build
 
 构建产物位于 `dist/` 目录，可部署到任意静态服务器。
 
+## 🖥️ 构建桌面应用
+
+本项目支持打包为 Windows、Linux 和 macOS 桌面应用。
+
+```bash
+# 构建所有平台 (需相应环境支持)
+npm run electron:build
+
+# 仅构建 Windows
+npm run electron:build -- --win
+
+# 仅构建 Linux
+npm run electron:build -- --linux
+
+# 仅构建 macOS
+npm run electron:build -- --mac
+```
+
+构建产物位于 `release/` 目录。
+
+> **注意**: 在 Windows 上构建 macOS 应用可能有局限性，建议在对应平台上进行构建。
+
 ## ⚠️ 限制与已知问题
 
 1. **光线要求** - 手势识别需要良好的光线条件

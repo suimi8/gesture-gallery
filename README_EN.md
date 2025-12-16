@@ -130,6 +130,28 @@ npm run build
 
 Built files are in the `dist/` directory, deployable to any static server.
 
+## 🖥️ Desktop Application
+
+This project supports packaging as a desktop application for Windows, Linux, and macOS.
+
+```bash
+# Build for all platforms (requires appropriate environment)
+npm run electron:build
+
+# Build for Windows only
+npm run electron:build -- --win
+
+# Build for Linux only
+npm run electron:build -- --linux
+
+# Build for macOS only
+npm run electron:build -- --mac
+```
+
+Artifacts are located in the `release/` directory.
+
+> **Note**: Building macOS applications on Windows may have limitations. It is recommended to build on the target platform.
+
 ## ⚠️ Limitations & Known Issues
 
 1. **Lighting Requirements** - Good lighting improves gesture recognition
