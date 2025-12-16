@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>手势控制画廊</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- Loading Overlay -->
+    <div id="loader" class="loader-container">
+      <div class="spinner"></div>
+      <p>正在加载手势模型...</p>
+    </div>
+
+    <!-- Main Gallery Container -->
+    <div id="app">
+      <div class="gallery-track" id="gallery-track">
+        <!-- Images will be injected here JS or hardcoded for demo -->
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=1" alt="Image 1"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=2" alt="Image 2"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=3" alt="Image 3"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=4" alt="Image 4"></div>
+        <div class="gallery-item"><img src="https://picsum.photos/600/400?random=5" alt="Image 5"></div>
+      </div>
+    </div>
+
+    <!-- Cursor Layer -->
+    <div id="cursor" class="custom-cursor">
+      <div class="cursor-ring"></div>
+    </div>
+
+    <!-- Debug/Feedback UI -->
+    <div id="status-bar">初始化中...</div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
