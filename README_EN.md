@@ -144,10 +144,15 @@ Built files are in the `dist/` directory, deployable to any static server.
 - **Build Tool**: Vite
 - **Language**: JavaScript (ES Modules)
 
+## 👤 Author
+
+**suimi8 (碎米)**
+
+- GitHub: [@suimi8](https://github.com/suimi8)
+
 ## 📝 License
 
-MIT License
-
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 ---
 
 Made with ❤️ using AI-powered gesture recognition

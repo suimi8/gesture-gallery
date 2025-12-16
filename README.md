@@ -60,7 +60,7 @@ gh repo clone suimi8/gesture-gallery
 ```
 
 # 进入项目目录
-cd 图片展示
+cd gesture-gallery
 
 # 安装依赖
 npm install
@@ -144,10 +144,15 @@ npm run build
 - **构建工具**: Vite
 - **语言**: JavaScript (ES Modules)
 
+## 👤 作者
+
+**suimi8 (碎米)**
+
+- GitHub: [@suimi8](https://github.com/suimi8)
+
 ## 📝 许可证
 
-MIT License
-
+本项目基于 MIT 许可证分发。详见 [LICENSE](LICENSE) 文件。
 ---
 
 Made with ❤️ using AI-powered gesture recognition
