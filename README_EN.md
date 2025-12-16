@@ -2,7 +2,7 @@
 
 An immersive image gallery application powered by **MediaPipe machine learning gesture recognition**. Browse, zoom, and pan images using hand gestures without touching the screen.
 
-![Demo](./demo.gif)
+
 
 ## ✨ Features
 
