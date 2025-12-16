@@ -155,4 +155,4 @@ npm run build
 本项目基于 MIT 许可证分发。详见 [LICENSE](LICENSE) 文件。
 ---
 
-Made with ❤️ using AI-powered gesture recognition
+❤️ 基于 AI 智能手势识别技术打造
