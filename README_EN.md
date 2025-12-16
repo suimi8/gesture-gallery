@@ -1,12 +1,12 @@
 # 🖐️ Gesture Gallery
 
-An immersive image gallery application powered by **AI gesture recognition**. Browse, zoom, and pan images using hand gestures without touching the screen.
+An immersive image gallery application powered by **MediaPipe machine learning gesture recognition**. Browse, zoom, and pan images using hand gestures without touching the screen.
 
 ![Demo](./demo.gif)
 
 ## ✨ Features
 
-- 🎯 **Real-time Gesture Recognition** - Precise hand tracking using MediaPipe
+- 🎯 **Real-time Gesture Recognition** - Precise hand tracking using MediaPipe deep learning models
 - 🌍 **Dual View Modes** - Switch between 2D flat gallery and 3D Earth mode
 - 🤏 **Intuitive Gesture Control** - Right hand for cursor, left hand for zoom/pan
 - 📷 **Custom Images** - Load your own image collection
