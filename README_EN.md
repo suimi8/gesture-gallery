@@ -43,7 +43,21 @@ An immersive image gallery application powered by **MediaPipe machine learning g
 
 ```bash
 # Clone the repository
+
+### HTTPS
+```bash
 git clone https://github.com/suimi8/gesture-gallery.git
+```
+
+### SSH
+```bash
+git clone git@github.com:suimi8/gesture-gallery.git
+```
+
+### GitHub CLI
+```bash
+gh repo clone suimi8/gesture-gallery
+```
 
 # Enter project directory
 cd gesture-gallery

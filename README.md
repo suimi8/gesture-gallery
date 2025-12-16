@@ -43,7 +43,21 @@
 
 ```bash
 # 克隆项目
+
+### HTTPS
+```bash
 git clone https://github.com/suimi8/gesture-gallery.git
+```
+
+### SSH
+```bash
+git clone git@github.com:suimi8/gesture-gallery.git
+```
+
+### GitHub CLI
+```bash
+gh repo clone suimi8/gesture-gallery
+```
 
 # 进入项目目录
 cd 图片展示
