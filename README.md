@@ -43,7 +43,7 @@
 
 ```bash
 # 克隆项目
-git clone <your-repo-url>
+git clone https://github.com/suimi8/gesture-gallery.git
 
 # 进入项目目录
 cd 图片展示
